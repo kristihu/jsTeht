@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button>Button</button>
+<output id="result"></output>
+<script>
+(() => {
+let btn = document.querySelector("button");
+let output = document.querySelector("#result");
+
+function getRandom(min, max){
+return Math.round(Math.random() * (max - min) + min);
+}
+
+function showRandomNUmbers(){
+let numbers = [],
+random;
+
+
+for(let i = 0; i < 6; i++){
+
+random = getRandom(1, 49);
+while(numbers.indexOf(random) !== -1){
+console.log("upps (" + random + ") it is in already.");
+random = getRandom(1, 49);
+console.log("replaced with: (" + random + ").");
+}
+
+numbers.push(random);
+
+
+}
+numbers.sort(function(a, b){return a-b});
+output.value = numbers.join(", ");
+
+}
+
+btn.onclick = showRandomNUmbers;
+})();
+//lähde = stackoverflow / w3schools
+</script>
+</body>
+</html>
