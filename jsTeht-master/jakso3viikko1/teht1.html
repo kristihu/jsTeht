@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    Paino:
+    <input id="pai" type="text" name="paino">
+    pituus:
+    <input id="pit" type="text" name="pituus">
+    <input id="tulos" type="text" name="tuloos">
+
+</form>
+<button onclick="laske()">Paina</button>
+<p id="asd"></p>
+<script>
+ laske = function(){
+   const paino = document.getElementById('pai').value;
+   const pituus = document.getElementById('pit').value;
+   document.getElementById('tulos').value = parseInt(paino) / Math.sqrt(parseInt(pituus));
+ };
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+luku1:
+<input id="l1" type="text" name="paino">
+luku2:
+<input id="l2" type="text" name="pituus">
+<input id="tulos" type="text" name="tuloos">
+/
+<input id="tulos2" type="text" name="ebin">
+
+</form>
+<button onclick="gcd()">Paina</button>
+
+<script>
+  function gcd(a, b) {
+    a = document.getElementById('l1').value;
+    b = document.getElementById('l2').value;
+    let jako = b % a;
+
+    document.getElementById('tulos').value= (jako);
+    document.getElementById('tulos2').value= (b / jako);
+
+  }
+
+
+
+
+</script>
+</body>
+</html>
