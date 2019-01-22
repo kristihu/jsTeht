@@ -5,25 +5,34 @@
     border-radius: 5px;
     border: 1px solid;
     box-shadow: 10px 10px 10px 10px black;
-
-
-
-
+    top: 100px;
 }
+
+h2{
+    font-family: 'Coiny', cursive;
+    padding-left: 10%;
+
+    font-size: 50px;
+}
+
+
 .palkki2{
 
-    height: 400px;
+    height: 250px;
     width: 50px;
     background-color: black;
-
+    margin-bottom: 30px;
 
     margin-left: 35%;
 }
 .valot{
-    float: right;
-    height: 100%;
+    position: absolute;
+    right: 0px;
+    bottom: 550px;
+    height: 200px;
     margin-right: 20%;
-    margin-top: 5%;
+    z-index: -1;
+
 
 
 }
@@ -64,15 +73,17 @@
 }
 body{
     background: #0F2027;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    margin: 0;
+    height: 100%;
+    width: 100% ;
 
 }
 .kuu{
 
     display: block;
     margin-left: 50%;
-    margin-top: 5%;
+
     width: 10rem;
     height: 10rem;
     background-color: transparent;
@@ -83,12 +94,13 @@ body{
 }
 
 div.transbox {
-    margin-left: 600px;
-    margin-top: 200px;
+    position: absolute;
+    left: 300px;
+
     background-color: #ffffff;
     border: 1px solid black;
     opacity: 0.2;
-    width: 15%;
+    width: 20%;
     height: 350px;
 }
 
@@ -100,10 +112,19 @@ div.transbox p {
 .oval {
     height: 200px;
     width: 100%;
-
+    position: absolute;
     border-radius: 10%;
-    position: fixed;
-    bottom: 1px;
+    z-index: 1;
+    bottom: 0px;
     background-color: #7E7C6A;
-    padding-bottom: -50px;
+
+}
+
+.quarter-circle-bottom-left{
+    position: absolute;
+    bottom: 50px;
+    width: 400px;
+    height: 400px;
+    background: #2a2e40;
+    border-radius: 50%;
 }

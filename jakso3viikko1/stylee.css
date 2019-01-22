@@ -1,0 +1,116 @@
+.nelio{
+    width: 450px;
+    height: 600 px;
+    background-color: #f1f1f1;
+    display: inline-block;
+    margin-top: 10%;
+    text-align: center;
+}
+.container{
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 20px;
+
+
+}
+li {
+    margin: 10px 0;
+    background-color: lightseagreen;
+    text-align: left;
+
+}
+
+.navbar{
+    position: absolute;
+    top: 19.5%;
+    left: 27.3%;
+
+}
+img{
+    margin-top: 60px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+h3{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+h5{
+    font-size: 20px;
+    margin-top: 0px;}
+html{
+    background: url(asdf.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+p{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.fa {
+    padding: 20px;
+    font-size: 15px;
+    width: 1px;
+    height: 1px;
+    text-align: center;
+
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa-facebook {
+    background: #03131a;
+    color: white;
+}
+
+.fa-twitter {
+    background: #03131a;
+    color: white;
+}
+
+.fa-google {
+    background: #03131a;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #03131a;
+    color: white;
+}
+
+.fa-youtube {
+    background: #03131a;
+    color: white;
+}
+.toinenbox{
+    right: 50px;
+    width: 400px;
+    height: 40px;
+    background: lightseagreen;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.rump{
+    color: white;
+    padding-bottom:3px;
+}
